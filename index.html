@@ -68,6 +68,50 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-第一天" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/03/02/第一天/" class="article-date">
+  <time datetime="2016-03-02T08:56:29.000Z" itemprop="datePublished">2016-03-02</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/blog/">blog</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/02/第一天/">第一天</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>使用hexo的第一天<br>搭建hexo<br>下载node.js 自动安装即可<br>安装Git 去github下载msysgit最新安装文件  安装即可<br>安装hexo<br> 利用npm命令安装即可 npm install -g hexo<br> 创建hexo文件夹 再创建的文件夹下<br>    使用命令 hexo init<br>    安装依赖包 npm install<br>    本地查看 执行命令hexo generate ; hexo server  在本地浏览器里查看local:4000;<br>注册Github 账号<br>创建repository 名字为wusiwei.github.io<br>注意在Github settings SSH keys中上传ssh秘钥<br>  先查看是否有秘钥 cd ~/.ssh<br>  生成秘钥 $ ssh-keygen -t rsa -C “wusiwei1122@163.com” (填的邮箱)<br>  按3个回车，密码为空这里一般不使用密钥。<br>  xclip -selection c  id_rsa.pub 用此命令复制秘钥<br>  将秘钥添加到github上。<br>  测试一下 ssh git@github.com  完成<br>部署<br>  编辑_config.yml(在H:\hexo下)。你在部署时，要把下面的wusiwei都换成你的账号名。<br>  deploy:<br>  type: git<br>  repository: <a href="https://github.com/wusiwei/wusiwei.github.io.git" target="_blank" rel="external">https://github.com/wusiwei/wusiwei.github.io.git</a><br>  branch: master<br>  (注意hexo3的type是git不是github且要运行命令 npm install hexo-deployer-git –save 重新部署一下)<br>完成</p>
+<p>编写博客在 hexo\source_posts下（一些个性化设置百度就行）</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/03/02/第一天/" data-id="cilams30j0000ocsb6oxxv580" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客，文章/">博客，文章</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/03/02/hello-world/" class="article-date">
@@ -103,7 +147,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/02/hello-world/" data-id="cilald7qt0000egsbpysuwol5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/03/02/hello-world/" data-id="cilalek3q0000xosb2knw27o1" class="article-share-link">Share</a>
       
       
     </footer>
@@ -144,7 +188,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2013/05/29/new1/" data-id="cilald7rq0001egsbrtxz9wuh" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2013/05/29/new1/" data-id="cilalek420001xosb6q2wpm1r" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客，文章/">博客，文章</a></li></ul>
@@ -205,6 +249,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2016/03/02/第一天/">第一天</a>
+          </li>
         
           <li>
             <a href="/2016/03/02/hello-world/">Hello World</a>
